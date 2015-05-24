@@ -1,15 +1,17 @@
 ## This is the Codebook
 
-# The data output by the script run_analysis.R will look like this:
+### The data output by the script run_analysis.R will look like this:
 
 - 181 rows and 81 columns
 - one row each for each activity (6) by each subject (30)
 - one column each for activity_name, subject_id
 - one column each for the average of each variable that measured mean or standard devation (std) 
 that is listed in the UCI HAR features.txt file. These are listed below and are preceded by their variable code number.
+
 A full description is available at the site where the data was obtained: 
 http://archive.ics.uci.edu/ml/datasets/Human+Activity+Recognition+Using+Smartphones 
 
+<pre>
 1 tBodyAcc-mean()-X
 2 tBodyAcc-mean()-Y
 3 tBodyAcc-mean()-Z
@@ -90,3 +92,4 @@ http://archive.ics.uci.edu/ml/datasets/Human+Activity+Recognition+Using+Smartpho
 517 fBodyBodyAccJerkMag-std()
 530 fBodyBodyGyroMag-std()
 543 fBodyBodyGyroJerkMag-std()
+</pre>
